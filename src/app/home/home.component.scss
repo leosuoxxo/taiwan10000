@@ -1,0 +1,97 @@
+.index .icon {
+  width: 55%;
+  padding-bottom: 8%;
+}
+
+/*遊記*/
+
+.index .news {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 0;
+}
+
+.index .news .news_content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.index .news .news_content .news_item {
+  width: 30%;
+  margin: 10px;
+}
+
+.index .news .news_content .news_item.reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.index .news .news_content .news_item.reverse .news_item_box {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.index .news .news_content .news_item .news_item_box {
+  display: flex;
+  margin-top: 10px;
+}
+
+.index .news .news_content .news_item .news_item_box .new_card:first-child {
+  padding-right: 15px;
+}
+
+/*住宿 & 餐廳*/
+
+.index .card_block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.index .card_block .card_item {
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.index .buy {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1% 0;
+}
+
+/*強力推薦*/
+
+.index .buy .title {
+  width: 15%;
+  padding-bottom: 12%;
+  background-image: url('../../assets/images/buy/title.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*圖組*/
+
+.index .buy .content {
+  width: 65%;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.index .buy .content .items {
+  display: flex;
+  align-items: flex-end;
+}

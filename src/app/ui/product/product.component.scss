@@ -1,0 +1,31 @@
+.product {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center center;
+  margin: 0 20px;
+}
+
+/*商品圖片*/
+
+.product .img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  padding-bottom: 60%;
+}
+
+/*商品資訊*/
+
+.product .informations {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product .informations .money span {
+  color: #e5790e;
+  font-size: 25px;
+}

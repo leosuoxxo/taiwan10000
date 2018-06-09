@@ -1,0 +1,157 @@
+.menu {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar {
+  width: 13%;
+  color: #fff;
+  background-color: #062743;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .bar {
+  margin-bottom: 50px;
+}
+
+.navbar .icon {
+  width: 20px;
+  height: 20px
+}
+
+/*上方LOGO*/
+
+.navbar .logo {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.navbar .logo img {
+  width: 100%;
+  vertical-align: top;
+}
+
+/*中間項目*/
+
+.navbar .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar .items div {
+  margin-top: 30px;
+}
+
+.navbar .items .search {
+  width: 15%;
+}
+
+/*下方icon*/
+
+.navbar .icon_list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sub_navbar {
+  width: 33%;
+  color: #000;
+  background-color: #fff;
+}
+
+/*綜合資訊*/
+
+.sub_navbar .informations {
+  color: #fff;
+  background-color: #3dbcb9;
+  display: flex;
+  width: 100%;
+  height: 120px;
+}
+
+.sub_navbar .informations .area {
+  width: 50%;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.sub_navbar .informations .weather {
+  width: 50%;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.sub_navbar .informations .weather span {
+  font-size: 30px;
+}
+
+.sub_navbar .informations .weather .icon {
+  width: 50px;
+  height: 56px;
+  margin: 0 5px;
+}
+
+/*貨幣換算*/
+
+.sub_navbar .money {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 1px 5px #eee;
+  padding: 10px 0;
+}
+
+.sub_navbar .money .icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.sub_navbar .money .rmb,
+.sub_navbar .money .twd {
+  display: flex;
+}
+
+/*其他服務*/
+
+.sub_navbar .items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.sub_navbar_item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.sub_navbar_item .icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+  margin: 10px 0;
+}
+
+.sub_navbar_item .title {
+  color: #062743;
+}

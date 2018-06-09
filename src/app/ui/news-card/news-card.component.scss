@@ -1,0 +1,40 @@
+.new_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.new_card .new_card_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 66%;
+}
+
+.new_card .informations {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.new_card .informations .intro {
+  /*padding:5px;*/
+}
+
+.new_card .informations .intro span {
+  position: relative;
+  line-height: 23px;
+}
+
+.new_card .informations .intro span:before {
+  content: '';
+  width: 4px;
+  height: 100%;
+  background-color: #369ad6;
+  position: absolute;
+  left: -10px;
+  top: 0;
+}
+
+.new_card .informations .place {
+  padding-left: 6px;
+}

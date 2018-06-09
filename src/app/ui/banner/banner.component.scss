@@ -1,0 +1,28 @@
+.banner {
+  position: relative;
+  color: #fff;
+}
+
+.banner img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.banner .intro {
+  position: absolute;
+  bottom: 90px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner .intro .subtitle {
+  display: flex;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.banner .intro .subtitle p {
+  margin-left: 15px;
+}
